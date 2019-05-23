@@ -1,0 +1,46 @@
+{
+  "name": "rn-template",
+  "version": "0.0.1",
+  "private": true,
+  "main": "node_modules/expo/AppEntry.js",
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "open 'rndebugger://set-debugger-loc?host=localhost&port=19001'"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^10.0.1",
+    "babel-polyfill": "^6.26.0",
+    "bootstrap": "^4.3.1",
+    "expo": "^32.0.6",
+    "firebase": "^5.9.2",
+    "native-base": "^2.12.1",
+    "prop-types": "^15.7.2",
+    "react": "16.5.0",
+    "react-helmet": "^5.2.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "react-native-router-flux": "4.0.6",
+    "react-redux": "^6.0.0",
+    "react-timer-mixin": "^0.13.4",
+    "reactstrap": "^7.1.0",
+    "redux": "^4.0.1",
+    "redux-persist": "^5.10.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "^5.1.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "node-sass": "^4.11.0"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "React Native Bootstraping Template",
+    "description": "This is a boilerplate that launches React Native mobile app.",
+    "slug": "",
+    "privacy": "private",
+    "sdkVersion": "32.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "0.0.1",
+    "orientation": "portrait",
+    "icon": "./src/images/app-icon.png",
+    "splash": {
+      "image": "./src/images/launch.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#473be7"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
